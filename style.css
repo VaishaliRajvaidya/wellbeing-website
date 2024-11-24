@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #3f3e3e;
+    padding: 20px 0;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo img {
+    width: 80px;
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+header h1{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+/* main */
+.main {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 300px;
+    text-wrap: nowrap;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-top: 280px;
+}
+
+.overlay button {
+    background-color: #1a1817;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.main>video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    
+
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 19, 19, 0.404);
+    position: relative;
+}
+.overlay>h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900 ;
+}
+/* trainers */
+.trainer {
+    padding:5px;
+    background-color:#49524a ;
+}
+.fun{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.25ms ease;
+}
+.trainer > h1{
+    font-size: 50px;
+    text-wrap: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.card {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.15s ease;
+}
+
+.card video{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card :hover{width: 280px;}
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.service-card p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Footer Section */
+#page5
+{
+    
+    width: 100%;
+    height: 275px;
+    position:relative;
+background-color:#333;
+
+}
+ #page5 >.c1
+{
+font-size: 12px;
+position: absolute;
+left: 200px;
+top: 45px;
+margin-top: 10px;
+color: white;
+}#page5> .c2
+{
+font-size: 12px;
+position: absolute;
+top: 65px;
+left: 600px;
+transform: translate(-50%,-50%);
+color: white;
+margin-top: 10px;
+}
+#page5>.c3
+{
+font-size: 12px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 900px;
+top: 70px;
+color: white;
+margin-top: 10px;
+}
+#page5>.c4
+{
+font-size: 12px;
+position: absolute;
+transform: translate(-50%,-50%);
+left: 1200px;
+top: 85px;
+color:white;
+margin-top: 5px;
+}
+#page5>.icon
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 200px;
+   left: 650px;
+    size: 100px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
